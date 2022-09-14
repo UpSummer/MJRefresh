@@ -17,7 +17,7 @@ NSString *const MJRefreshKeyPathPanState = @"state";
 NSString *const MJRefreshHeaderLastUpdatedTimeKey = @"MJRefreshHeaderLastUpdatedTimeKey";
 
 NSString *const MJRefreshHeaderIdleText = @"MJRefreshHeaderIdleText";
-NSString *const MJRefreshHeaderPullingText = @"MJRefreshHeaderPullingText";
+//NSString *const MJRefreshHeaderPullingText = @"MJRefreshHeaderPullingText";
 NSString *const MJRefreshHeaderRefreshingText = @"MJRefreshHeaderRefreshingText";
 
 NSString *const MJRefreshTrailerIdleText = @"MJRefreshTrailerIdleText";
@@ -28,7 +28,7 @@ NSString *const MJRefreshAutoFooterRefreshingText = @"MJRefreshAutoFooterRefresh
 NSString *const MJRefreshAutoFooterNoMoreDataText = @"MJRefreshAutoFooterNoMoreDataText";
 
 NSString *const MJRefreshBackFooterIdleText = @"MJRefreshBackFooterIdleText";
-NSString *const MJRefreshBackFooterPullingText = @"MJRefreshBackFooterPullingText";
+//NSString *const MJRefreshBackFooterPullingText = @"MJRefreshBackFooterPullingText";
 NSString *const MJRefreshBackFooterRefreshingText = @"MJRefreshBackFooterRefreshingText";
 NSString *const MJRefreshBackFooterNoMoreDataText = @"MJRefreshBackFooterNoMoreDataText";
 
