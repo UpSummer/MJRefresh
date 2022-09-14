@@ -85,20 +85,15 @@ static NSBundle *mj_systemI18nBundle = nil;
 + (NSBundle *)mj_defaultI18nBundleWithLanguage:(NSString *)language {
     if ([language hasPrefix:@"en"]) {
         language = @"en";
-    } else if ([language hasPrefix:@"zh"]) {
-        if ([language rangeOfString:@"Hans"].location != NSNotFound) {
-            language = @"zh-Hans"; // 简体中文
-        } else { // zh-Hant\zh-HK\zh-TW
-            language = @"zh-Hant"; // 繁體中文
-        }
-    } else if ([language hasPrefix:@"ko"]) {
-        language = @"ko";
-    } else if ([language hasPrefix:@"ru"]) {
-        language = @"ru";
-    } else if ([language hasPrefix:@"uk"]) {
-        language = @"uk";
-    } else {
-        language = @"en";
+    }
+    else if ([language hasPrefix:@"zh"]) {
+        language = @"zh-Hans"; // 简体中文
+    }
+    else if ([language hasPrefix:@"ja"]) {
+        language = @"ja";
+    }
+    else {
+        language = @"ja";
     }
     
     // 从MJRefresh.bundle中查找资源
